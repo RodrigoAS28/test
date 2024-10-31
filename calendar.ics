@@ -1,16 +1,16 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Your Company//EN
+PRODID:-//Bird//EN
 CALSCALE:GREGORIAN
 METHOD:REQUEST
 BEGIN:VEVENT
-UID:1234567890@example.com
+UID:4d0521ad-2509-467e-b1c2-9f2f7ad24658
 SUMMARY:Weekly Demo Invitation
 DTSTART;TZID=Europe/Lisbon:20241101T130000
 DTEND;TZID=Europe/Lisbon:20241101T140000
 DTSTAMP:20241030T120000Z
-ORGANIZER;CN=Your Name:mailto:your.email@example.com
-ATTENDEE;CN=Your Name;RSVP=TRUE:mailto:your.email@example.com
+ORGANIZER;CN=Rodrigo:mailto:rodrigo.alves@messagebird.com
+ATTENDEE;CN=Rodrigo;RSVP=TRUE:mailto:rodrigo.alves@messagebird.com
 DESCRIPTION:Hi Team,\n\nWe are happy to invite you to our Weekly Demo on Fridays!\n\nMeeting link and recordings can be found on BirdBook, afterwards here: https://messagebird.atlassian.net/wiki/spaces/TITKB/pages/9712009412/All-Hands+Recordings/
 LOCATION:Online
 STATUS:CONFIRMED
