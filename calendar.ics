@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Your Company//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:weekly-demo-invitation@example.com
+SUMMARY:Weekly Demo Invitation
+DTSTART;TZID=Europe/Lisbon:20241101T130000
+DTEND;TZID=Europe/Lisbon:20241101T140000
+DESCRIPTION:Hi Team,\n\nWe are happy to invite you to our Weekly Demo on Fridays!\n\nMeeting link and recordings can be found on BirdBook, afterwards here: https://messagebird.atlassian.net/wiki/spaces/TITKB/pages/9712009412/All-Hands+Recordings/
+LOCATION:Online
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
